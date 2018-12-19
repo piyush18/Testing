@@ -1,7 +1,6 @@
-C:\Users\Piyush Sharma\source\repos\Programming\Programming\bin\Debug\Programming.exe.config
-C:\Users\Piyush Sharma\source\repos\Programming\Programming\bin\Debug\Programming.exe
-C:\Users\Piyush Sharma\source\repos\Programming\Programming\bin\Debug\Programming.pdb
-C:\Users\Piyush Sharma\source\repos\Programming\Programming\obj\Debug\Programming.csprojAssemblyReference.cache
-C:\Users\Piyush Sharma\source\repos\Programming\Programming\obj\Debug\Programming.csproj.CoreCompileInputs.cache
-C:\Users\Piyush Sharma\source\repos\Programming\Programming\obj\Debug\Programming.exe
-C:\Users\Piyush Sharma\source\repos\Programming\Programming\obj\Debug\Programming.pdb
+D:\PRogramming\Programming\bin\Debug\Programming.exe.config
+D:\PRogramming\Programming\bin\Debug\Programming.exe
+D:\PRogramming\Programming\bin\Debug\Programming.pdb
+D:\PRogramming\Programming\obj\Debug\Programming.csproj.CoreCompileInputs.cache
+D:\PRogramming\Programming\obj\Debug\Programming.exe
+D:\PRogramming\Programming\obj\Debug\Programming.pdb

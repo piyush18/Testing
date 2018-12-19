@@ -11,6 +11,8 @@ namespace Programming
         public void armstrong()
         {
 
+
+
             int n, r, sum = 0, rem;
             Console.Write("Enter the Number= ");
             n = int.Parse(Console.ReadLine());
