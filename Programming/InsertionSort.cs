@@ -10,49 +10,60 @@ namespace Programming
     {
 
 
-    public    static int[] InsertionSortAlgo(int[] inputArray)
+        public static void  InsertionSortAlgo(int[] intArray)
         {
+            Console.WriteLine("==========Integer Array Input===============");
 
-            for (int i = 0; i <inputArray.Length-1; i++)
+            for (int i = 0; i < intArray.Length; i++)
+
             {
-                for (int j =i+1; j < 0; j--)
-                {
-                    if (inputArray[j - 1] > inputArray[j])
-                    {
-                        int temp = inputArray[j - 1];
-                        inputArray[j - 1] = inputArray[j];
-                        inputArray[j] = temp;
 
-                    }
+                Console.WriteLine(intArray[i]);
+
+            }
+
+
+
+            int temp, j;
+
+            for (int i = 1; i < intArray.Length; i++)
+
+            {
+
+                temp = intArray[i];
+
+                j = i - 1;
+
+
+
+                while (j >= 0 && intArray[j] > temp)
+
+                {
+
+                    intArray[j + 1] = intArray[j];
+
+                    j--;
 
                 }
 
+
+
+                intArray[j + 1] = temp;
+
             }
-            return inputArray;
-        }
-        public static void PrintIntegerArray(int[] array)
-        {
-            foreach (int i in array)
+
+
+
+            Console.WriteLine("==========Integer Array OutPut===============");
+
+            for (int i = 0; i < intArray.Length; i++)
+
             {
-                Console.Write(i.ToString() + "  ");
+
+                Console.WriteLine(intArray[i]);
+
             }
-        }
-        public static int[] InsertionSortByShift(int[] inputArray)
-        {
-            for (int i = 0; i < inputArray.Length - 1; i++)
-            {
-                int j;
-                var insertionValue = inputArray[i];
-                for (j = i; j > 0; j--)
-                {
-                    if (inputArray[j - 1] > insertionValue)
-                    {
-                        inputArray[j] = inputArray[j - 1];
-                    }
-                }
-                inputArray[j] = insertionValue;
-            }
-            return inputArray;
+
         }
     }
 }

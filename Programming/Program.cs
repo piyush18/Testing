@@ -79,17 +79,17 @@ namespace Programming
 
             //SelectionSort s = new SelectionSort();
             //s.Selectionsort();
-            //   int[] numbers = new int[10] { 2, 5, -4, 11, 0, 18, 22, 67, 51, 6 };
-            ////   Console.WriteLine("\nOriginal Array Elements :");
+               int[] numbers = new int[10] { 2, 5, -4, 11, 0, 18, 22, 67, 51, 6 };
+               Console.WriteLine("\nOriginal Array Elements :");
             ////InsertionSort.InsertionSortAlgo(numbers);
 
-            //InsertionSort.InsertionSortAlgo(numbers);
-            //Console.ReadLine();
-            //   Console.WriteLine("\nSorted Array Elements :");
-            //   InsertionSort.PrintIntegerArray(InsertionSort.InsertionSortAlgo(numbers));
-            //   Console.WriteLine("\n");
-            //   Console.ReadLine();
-            Factorial.Fact();
+            InsertionSort.InsertionSortAlgo(numbers);
+            Console.ReadLine();
+          //  Console.WriteLine("\nSorted Array Elements :");
+          //  InsertionSort.PrintIntegerArray(InsertionSort.InsertionSortByShift(numbers));
+          //  Console.WriteLine("\n");
+          //  Console.ReadLine();
+            //Factorial.Fact();
 
         }
     }
